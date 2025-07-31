@@ -4,7 +4,7 @@ app = Flask(__name__)
 # Rotas (paginas)
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('index.html',titulo="Adjailson",outra="kkkkk")
 #fim rotas
 if __name__ == '__main__':
     app.run(debug=True)
